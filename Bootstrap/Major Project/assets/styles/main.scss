@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,800;1,14..32,800&display=swap');
+$theme-colors: (
+  "primary":    rgb(229, 9, 20),
+  "secondary":  rgb(45, 45, 45),
+  "light":      white,
+  "dark":       black
+);
+$font-family-sans-serif: 'Inetr', sans-serif;
+$accordion-border-radius: 0;
+$accordion-inner-border-radius: 0;
+$accordion-padding-y:1.6rem;
+$accordion-button-focus-box-shadow: 0 0 0 transparent;
+$accordion-border-color: rgb(45, 45, 45);
+$accordion-button-color: white;
+$accordion-button-bg: rgb(45, 45, 45);
+$accordion-button-active-color: white;
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/></svg>");
+body{
+  background-color: black;
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"

@@ -1,0 +1,122 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav img{
+    width: 200px;
+    height: 90px;
+    background-size: cover;
+    /* border-radius: 200px; */
+    
+}
+.ebox{
+    display: flex;
+}
+.search input{
+    width: 500px;
+    border: 1px solid lightgray;
+    height: 60px;
+    padding: 5px;
+    /* margin-left: 100px; */
+    border-radius: 30px;
+    margin-left: 400px;
+
+}
+.search{
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+.home a{
+    text-decoration: none;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(46, 36, 36);
+}
+
+.flex{
+    display: flex;
+}
+.recepie{
+    /* padding: 50px; */
+    /* margin-left: 150px */
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid white;
+    height: fit-content;
+    /* padding: 20px; */
+    margin: 30px;
+}
+.recepie a{
+    text-decoration: none;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: lightseagreen;
+    
+    /* padding: 20px; */
+    /* padding: 40px; */
+}
+.rbox{
+    display: flex;
+    margin: 20px auto
+}
+.recepie p{
+    padding: 6px;
+}
+.recepie{
+    border-radius: 20px;
+    /* justify-content: space-around; */
+}
+.recepie:hover{
+    background-color: lightgray;
+}
+
+
+.icon{
+    padding: 10px;
+}
+.account{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    /* padding: 9px; */
+}
+.account svg{
+    padding: 8px;
+}
+
+.box{
+    width: 250px;
+    height: 280px;
+    overflow-y: scroll;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 10px;
+    margin-top: 20px; 
+}
+.box img{
+    width: 100%;
+    border-radius: 14px;
+    padding: 0;
+    height: 150px
+}
+.recipe-box a{
+    text-decoration: none;
+    color: black
+}
+.box p{
+    color: rgb(114, 113, 113)
+}
+.recipe-box{
+    display: flex;
+}
+.box{
+    margin: 20px;
+}
+.box:hover{
+    transition: 1s;
+    width: 300px;
+}

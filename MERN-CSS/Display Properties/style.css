@@ -1,0 +1,48 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 50px auto;
+    height: 280px;
+    overflow: auto;
+}
+.card-img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card-body{
+    padding: 10px;
+}
+.tag{
+    background-color: blueviolet;
+    color: white;
+    display: none;
+    padding: 3px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+    /* overflow: auto; */
+    /* margin-top: 5px 0px; */
+}
+.hero{
+    background-image: url(https://source.unsplash.com/1600x900/?Anime);
+    height: 400px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 30px auto;
+    width: 700px;
+}
+.hero-content{
+    color: white;
+    padding: 100px;
+}
+button{
+    background-color: white;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+}

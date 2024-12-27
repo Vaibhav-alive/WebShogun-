@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "scripts":{
+    "compile": "sass assets/styles/main.scss assets/styles/main.css --watch"
+  }
+}
